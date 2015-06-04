@@ -11,30 +11,22 @@
     
 
     
-    <meta name="description" content="从卫星影像和地面照片看尼泊尔古迹的破坏情况我们通过自动变化检测算法，找出4月11日和4月27日之间变化较大的区域。然后在这些提示信息的指引下，通过人工的甄别，把那些因为拍摄视角不同导致的高楼的景物变化和真正意义上的明显变化区分开来。下面列出一些图像上找出的城市中间区域一些重点名胜古迹的破坏情况。卫星图像之后附有一些这些景物的原来的地面照片。有些景物可以找到地震后的照片也放在一起比较。
-纳拉扬希蒂王">
+    <meta name="description" content="多屏幕综合变化检测系统遥感的主要用途是为了识别实质性的变化。尤其是在有了像GOOGLE EARTH这样高分辨率的覆盖全球的数据集之后，了解地物的大致情况不成问题。但是我们关心的地面最近有了什么变化，是否值得人们去了解和应对。
+为了准确的判断出两个时相之间的变化情况，我们要能够做到：1）准确的多时相图像的几何配准（亚像元级别）；2）鲁棒性强的变化检测算法；3）易于操纵全面反映信息的用户交互界面。
+我">
 <meta property="og:type" content="article">
 <meta property="og:title" content="地球那么大，大得像个西瓜 -- 毛泽东">
-<meta property="og:url" content="http://novachen.github.io/2015/05/14/nepalDamage/index.html">
+<meta property="og:url" content="http://novachen.github.io/2015/06/04/multiview/index.html">
 <meta property="og:site_name" content="地球那么大，大得像个西瓜 -- 毛泽东">
-<meta property="og:description" content="从卫星影像和地面照片看尼泊尔古迹的破坏情况我们通过自动变化检测算法，找出4月11日和4月27日之间变化较大的区域。然后在这些提示信息的指引下，通过人工的甄别，把那些因为拍摄视角不同导致的高楼的景物变化和真正意义上的明显变化区分开来。下面列出一些图像上找出的城市中间区域一些重点名胜古迹的破坏情况。卫星图像之后附有一些这些景物的原来的地面照片。有些景物可以找到地震后的照片也放在一起比较。
-纳拉扬希蒂王">
-<meta property="og:image" content="/images/a.gif">
-<meta property="og:image" content="/images/as.jpg">
-<meta property="og:image" content="/images/b.gif">
-<meta property="og:image" content="/images/bs.jpg">
-<meta property="og:image" content="/images/d.gif">
-<meta property="og:image" content="/images/ds.jpg">
-<meta property="og:image" content="/images/e.gif">
-<meta property="og:image" content="/images/es.jpg">
-<meta property="og:image" content="/images/f.gif">
-<meta property="og:image" content="/images/fs.jpg">
-<meta property="og:image" content="/images/g.gif">
-<meta property="og:image" content="/images/gs.jpg">
+<meta property="og:description" content="多屏幕综合变化检测系统遥感的主要用途是为了识别实质性的变化。尤其是在有了像GOOGLE EARTH这样高分辨率的覆盖全球的数据集之后，了解地物的大致情况不成问题。但是我们关心的地面最近有了什么变化，是否值得人们去了解和应对。
+为了准确的判断出两个时相之间的变化情况，我们要能够做到：1）准确的多时相图像的几何配准（亚像元级别）；2）鲁棒性强的变化检测算法；3）易于操纵全面反映信息的用户交互界面。
+我">
+<meta property="og:image" content="/images/multiview.jpg">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="地球那么大，大得像个西瓜 -- 毛泽东">
-<meta name="twitter:description" content="从卫星影像和地面照片看尼泊尔古迹的破坏情况我们通过自动变化检测算法，找出4月11日和4月27日之间变化较大的区域。然后在这些提示信息的指引下，通过人工的甄别，把那些因为拍摄视角不同导致的高楼的景物变化和真正意义上的明显变化区分开来。下面列出一些图像上找出的城市中间区域一些重点名胜古迹的破坏情况。卫星图像之后附有一些这些景物的原来的地面照片。有些景物可以找到地震后的照片也放在一起比较。
-纳拉扬希蒂王">
+<meta name="twitter:description" content="多屏幕综合变化检测系统遥感的主要用途是为了识别实质性的变化。尤其是在有了像GOOGLE EARTH这样高分辨率的覆盖全球的数据集之后，了解地物的大致情况不成问题。但是我们关心的地面最近有了什么变化，是否值得人们去了解和应对。
+为了准确的判断出两个时相之间的变化情况，我们要能够做到：1）准确的多时相图像的几何配准（亚像元级别）；2）鲁棒性强的变化检测算法；3）易于操纵全面反映信息的用户交互界面。
+我">
 
     
     <link rel="alternative" href="/atom.xml" title="地球那么大，大得像个西瓜 -- 毛泽东" type="application/atom+xml">
@@ -93,14 +85,14 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2015/05/14/nepalDamage/" title="" itemprop="url"></a>
+      <a href="/2015/06/04/multiview/" title="" itemprop="url"></a>
   </h1>
   <p class="article-author">By
        
 		<a href="http://novachen.github.io/about" title="陈甫" target="_blank" itemprop="author">陈甫</a>
 		
   <p class="article-time">
-    <time datetime="2015-05-14T02:57:15.266Z" itemprop="datePublished"> 发表于 2015-05-14</time>
+    <time datetime="2015-06-04T01:24:48.535Z" itemprop="datePublished"> 发表于 2015-06-04</time>
     
   </p>
 </header>
@@ -109,17 +101,15 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#从卫星影像和地面照片看尼泊尔古迹的破坏情况"><span class="toc-number">1.</span> <span class="toc-text">从卫星影像和地面照片看尼泊尔古迹的破坏情况</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#纳拉扬希蒂王宫博物馆"><span class="toc-number">1.1.</span> <span class="toc-text">纳拉扬希蒂王宫博物馆</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Nepalde_bir_budist_mabedi"><span class="toc-number">1.2.</span> <span class="toc-text">Nepalde bir budist mabedi</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#杜巴广场"><span class="toc-number">1.3.</span> <span class="toc-text">杜巴广场</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#比姆森塔"><span class="toc-number">1.4.</span> <span class="toc-text">比姆森塔</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#迪路迦摩罕纳拉扬神庙"><span class="toc-number">1.5.</span> <span class="toc-text">迪路迦摩罕纳拉扬神庙</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Kal_Mochan_Temple"><span class="toc-number">1.6.</span> <span class="toc-text">Kal Mochan Temple</span></a></li></ol></li></ol>
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#多屏幕综合变化检测系统"><span class="toc-number">1.</span> <span class="toc-text">多屏幕综合变化检测系统</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#以下是该界面的截屏。点击跳转到交互界面"><span class="toc-number">1.1.</span> <span class="toc-text">以下是该界面的截屏。点击跳转到交互界面</span></a></li></ol></li></ol>
 		
 		</div>
 		
-		<h1 id="从卫星影像和地面照片看尼泊尔古迹的破坏情况">从卫星影像和地面照片看尼泊尔古迹的破坏情况</h1><p>我们通过自动变化检测算法，找出4月11日和4月27日之间变化较大的区域。然后在这些提示信息的指引下，通过人工的甄别，把那些因为拍摄视角不同导致的高楼的景物变化和真正意义上的明显变化区分开来。下面列出一些图像上找出的城市中间区域一些重点名胜古迹的破坏情况。卫星图像之后附有一些这些景物的原来的地面照片。有些景物可以找到地震后的照片也放在一起比较。</p>
-<h2 id="纳拉扬希蒂王宫博物馆">纳拉扬希蒂王宫博物馆</h2><p><img src="/images/a.gif" alt=""><br><img src="/images/as.jpg" alt=""></p>
-<h2 id="Nepalde_bir_budist_mabedi">Nepalde bir budist mabedi</h2><p><img src="/images/b.gif" alt=""><br><img src="/images/bs.jpg" alt=""></p>
-<h2 id="杜巴广场">杜巴广场</h2><p><img src="/images/d.gif" alt=""><br><img src="/images/ds.jpg" alt=""></p>
-<h2 id="比姆森塔">比姆森塔</h2><p><img src="/images/e.gif" alt=""><br><img src="/images/es.jpg" alt=""></p>
-<h2 id="迪路迦摩罕纳拉扬神庙">迪路迦摩罕纳拉扬神庙</h2><p><img src="/images/f.gif" alt=""><br><img src="/images/fs.jpg" alt=""></p>
-<h2 id="Kal_Mochan_Temple">Kal Mochan Temple</h2><p><img src="/images/g.gif" alt=""><br><img src="/images/gs.jpg" alt=""></p>
+		<h1 id="多屏幕综合变化检测系统">多屏幕综合变化检测系统</h1><p>遥感的主要用途是为了识别实质性的变化。尤其是在有了像GOOGLE EARTH这样高分辨率的覆盖全球的数据集之后，了解地物的大致情况不成问题。但是我们关心的地面最近有了什么变化，是否值得人们去了解和应对。</p>
+<p>为了准确的判断出两个时相之间的变化情况，我们要能够做到：1）准确的多时相图像的几何配准（亚像元级别）；2）鲁棒性强的变化检测算法；3）易于操纵全面反映信息的用户交互界面。</p>
+<p>我们已有的系统在几何配准和变化检测上都有世界一流水平的表现，目前我们的目标是制作一个基于web的交互平台。</p>
+<p>目前我们已经有了一个雏形，可以通过四个窗口的经典配置来了解地物变化的内容。其中左上角是一个间隔1秒的两时相切换的模式，右上角是T1的数据，左下角是T2的数据，右下角是两个时相数据的变化检测的结果。变化检测的彩色图像中，越趋于灰色的表明变化越小，颜色越鲜艳的表明变化越大。这里有些大块的彩色区域是云造成的需要回避。</p>
+<h2 id="以下是该界面的截屏。点击跳转到交互界面">以下是该界面的截屏。<a href="http://novachen.github.io/story-map/nepal.html" target="_blank" rel="external">点击跳转到交互界面</a></h2><p><img src="/images/multiview.jpg" alt=""></p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -132,7 +122,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://novachen.github.io/2015/05/14/nepalDamage/" data-title="地球那么大，大得像个西瓜 -- 毛泽东" data-tsina="null" class="share clearfix">
+	  <div data-url="http://novachen.github.io/2015/06/04/multiview/" data-title="地球那么大，大得像个西瓜 -- 毛泽东" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -145,17 +135,9 @@
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2015/06/04/multiview/" title="">
-  <strong>上一篇：</strong><br/>
-  <span>
-  (no title)</span>
-</a>
-</div>
-
 
 <div class="next">
-<a href="/2015/05/14/nepal/"  title="">
+<a href="/2015/05/14/nepalDamage/"  title="">
  <strong>下一篇：</strong><br/> 
  <span>(no title)
 </span>
@@ -172,7 +154,7 @@
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#从卫星影像和地面照片看尼泊尔古迹的破坏情况"><span class="toc-number">1.</span> <span class="toc-text">从卫星影像和地面照片看尼泊尔古迹的破坏情况</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#纳拉扬希蒂王宫博物馆"><span class="toc-number">1.1.</span> <span class="toc-text">纳拉扬希蒂王宫博物馆</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Nepalde_bir_budist_mabedi"><span class="toc-number">1.2.</span> <span class="toc-text">Nepalde bir budist mabedi</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#杜巴广场"><span class="toc-number">1.3.</span> <span class="toc-text">杜巴广场</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#比姆森塔"><span class="toc-number">1.4.</span> <span class="toc-text">比姆森塔</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#迪路迦摩罕纳拉扬神庙"><span class="toc-number">1.5.</span> <span class="toc-text">迪路迦摩罕纳拉扬神庙</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Kal_Mochan_Temple"><span class="toc-number">1.6.</span> <span class="toc-text">Kal Mochan Temple</span></a></li></ol></li></ol>
+ <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#多屏幕综合变化检测系统"><span class="toc-number">1.</span> <span class="toc-text">多屏幕综合变化检测系统</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#以下是该界面的截屏。点击跳转到交互界面"><span class="toc-number">1.1.</span> <span class="toc-text">以下是该界面的截屏。点击跳转到交互界面</span></a></li></ol></li></ol>
  
   </div>
 
