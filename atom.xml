@@ -5,7 +5,7 @@
   <subtitle><![CDATA[毛主席请客，所以大家一起开动吧！]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://novachen.github.io//"/>
-  <updated>2015-07-09T09:38:20.953Z</updated>
+  <updated>2016-03-18T09:54:44.978Z</updated>
   <id>http://novachen.github.io//</id>
   
   <author>
@@ -14,6 +14,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[北京大兴机场建设]]></title>
+    <link href="http://novachen.github.io/2016/03/18/bj-airport/"/>
+    <id>http://novachen.github.io/2016/03/18/bj-airport/</id>
+    <published>2016-03-17T16:00:00.000Z</published>
+    <updated>2016-03-18T09:54:44.978Z</updated>
+    <content type="html"><![CDATA[<p>北京大兴机场正在如火如荼的建设中，通过Satsee的定点服务系统，可以不断跟踪机场的建设进度。</p>
+<p>左上是【2015-10-12】的快照，右上是【2016-02-16】的快照。<br>左下是两个日期切换的比较，右下是变化检测工具的结果（越亮表示变化越大)。</p>
+<h2 id="以下是该界面的截屏。点击跳转到交互界面">以下是该界面的截屏。<a href="http://novachen.github.io/story-map/bj-airport.html" target="_blank" rel="external">点击跳转到交互界面</a></h2><p><img src="/images/bj-airport.jpg" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>北京大兴机场正在如火如荼的建设中，通过Satsee的定点服务系统，可以不断跟踪机场的建设进度。</p>
+<p>左上是【2015-10-12】的快照，右上是【2016-02-16】的快照。<br>左下是两个日期切换的比较，右下是变化检测工具的结果（越亮表示变化越大)。</p>]]>
+    </summary>
+    
+      <category term="变化检测" scheme="http://novachen.github.io/tags/%E5%8F%98%E5%8C%96%E6%A3%80%E6%B5%8B/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[世界自然文化遗产的入选时序]]></title>
@@ -70,30 +89,6 @@
   </entry>
   
   <entry>
-    <title><![CDATA[中国自然保护区大全]]></title>
-    <link href="http://novachen.github.io/2015/06/24/storymap-nature-reserve/"/>
-    <id>http://novachen.github.io/2015/06/24/storymap-nature-reserve/</id>
-    <published>2015-06-23T16:00:00.000Z</published>
-    <updated>2015-07-09T09:43:29.218Z</updated>
-    <content type="html"><![CDATA[<p>从国家环保部的数据显示截至2013年，一共有2588个自然保护区，总面积约150万平方公里，占我国国土面积（960万平方公里）的16%，是我国生态系统的重要组成部分。</p>
-<p>保护区根据设立的等级可以分成：国家级，省级，市级，县级</p>
-<p>从管理的部分来看有：林业，环保，国土，住建</p>
-<p>从保护的内容来看有：森林，湿地，珍稀动植物，地质遗迹等等</p>
-<h3 id="点击跳转到交互界面"><a href="http://novachen.github.io/story-map/nature-reserve.html" target="_blank" rel="external">点击跳转到交互界面</a></h3><p><img src="/images/nature-reserve.png" alt=""></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>从国家环保部的数据显示截至2013年，一共有2588个自然保护区，总面积约150万平方公里，占我国国土面积（960万平方公里）的16%，是我国生态系统的重要组成部分。</p>
-<p>保护区根据设立的等级可以分成：国家级，省级，市级，县级</p>
-<p>从管理的部分来看有：林]]>
-    </summary>
-    
-      <category term="自然保护区" scheme="http://novachen.github.io/tags/%E8%87%AA%E7%84%B6%E4%BF%9D%E6%8A%A4%E5%8C%BA/"/>
-    
-      <category term="博文" scheme="http://novachen.github.io/categories/%E5%8D%9A%E6%96%87/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[尼泊尔震后无云产品对比]]></title>
     <link href="http://novachen.github.io/2015/06/24/nepal-decloud/"/>
     <id>http://novachen.github.io/2015/06/24/nepal-decloud/</id>
@@ -113,6 +108,30 @@
       <category term="尼泊尔" scheme="http://novachen.github.io/tags/%E5%B0%BC%E6%B3%8A%E5%B0%94/"/>
     
       <category term="无云" scheme="http://novachen.github.io/tags/%E6%97%A0%E4%BA%91/"/>
+    
+      <category term="博文" scheme="http://novachen.github.io/categories/%E5%8D%9A%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[中国自然保护区大全]]></title>
+    <link href="http://novachen.github.io/2015/06/24/storymap-nature-reserve/"/>
+    <id>http://novachen.github.io/2015/06/24/storymap-nature-reserve/</id>
+    <published>2015-06-23T16:00:00.000Z</published>
+    <updated>2015-07-09T09:43:29.218Z</updated>
+    <content type="html"><![CDATA[<p>从国家环保部的数据显示截至2013年，一共有2588个自然保护区，总面积约150万平方公里，占我国国土面积（960万平方公里）的16%，是我国生态系统的重要组成部分。</p>
+<p>保护区根据设立的等级可以分成：国家级，省级，市级，县级</p>
+<p>从管理的部分来看有：林业，环保，国土，住建</p>
+<p>从保护的内容来看有：森林，湿地，珍稀动植物，地质遗迹等等</p>
+<h3 id="点击跳转到交互界面"><a href="http://novachen.github.io/story-map/nature-reserve.html" target="_blank" rel="external">点击跳转到交互界面</a></h3><p><img src="/images/nature-reserve.png" alt=""></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>从国家环保部的数据显示截至2013年，一共有2588个自然保护区，总面积约150万平方公里，占我国国土面积（960万平方公里）的16%，是我国生态系统的重要组成部分。</p>
+<p>保护区根据设立的等级可以分成：国家级，省级，市级，县级</p>
+<p>从管理的部分来看有：林]]>
+    </summary>
+    
+      <category term="自然保护区" scheme="http://novachen.github.io/tags/%E8%87%AA%E7%84%B6%E4%BF%9D%E6%8A%A4%E5%8C%BA/"/>
     
       <category term="博文" scheme="http://novachen.github.io/categories/%E5%8D%9A%E6%96%87/"/>
     
